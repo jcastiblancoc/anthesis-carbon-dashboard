@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+
+# SonarQube
+.sonar-token
+.scannerwork/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Angular
+/frontend_anthesis/coverage/
+/frontend_anthesis/.angular/
+/frontend_anthesis/dist/
+
+# Docker
+docker-compose.yml.bak
+*.tmp

@@ -1,0 +1,11 @@
+Django>=5.0
+djangorestframework
+django-filter
+psycopg2-binary
+gunicorn
+django-cors-headers
+pytest
+pytest-django
+pytest-cov
+factory-boy
+faker
